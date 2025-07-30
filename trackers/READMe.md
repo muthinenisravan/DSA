@@ -1,8 +1,9 @@
-# ✅ Problem Checklist
+## 📌 Solved Problems Log
 
-| Problem                  | Solved | Pattern(s)               | Revisit Date | Notes                |
-|--------------------------|--------|---------------------------|---------------|-----------------------|
-| Two Sum                  | ✅     | Hashing                  | 2025-08-06    | Nailed it             |
-| Contains Duplicate       | ✅     | Hashing                  | 2025-08-06    | Simple set logic      |
-| Contains Duplicate II    | ✅     | Hashing, Sliding Window  | 2025-08-06    | 2 approaches tried    |
+Below are problems solved so far. Each links to a detailed problem log.
 
+| Problem Name           | Tag(s)                 | Log Link                                   |
+|------------------------|------------------------|---------------------------------------------|
+| Two Sum                | Hashing                | [View Log](../problems/logs/two_sum.md)     |
+| Contains Duplicate I   | Hashing                | [View Log](../problems/logs/duplicate_i.md) |
+| Contains Duplicate II  | Hashing, SlidingWindow | [View Log](../problems/logs/duplicate_ii.md)|
