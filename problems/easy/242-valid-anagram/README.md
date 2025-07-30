@@ -1,17 +1,13 @@
 ### 0242. Valid Anagram
-
-- ✅ **Problem**: [Valid Anagram – LeetCode](https://leetcode.com/problems/valid-anagram/)
-- 🧠 **First thought**:
-  - Sort both strings and compare.
-  - ⏱️ Time: O(S log S + T log T),  🧠 Space: O(1)
-- 🚀 **Optimal Approach**:
-  - Use 2 frequency arrays (26 size).
-  - Compare frequency counts for both strings.
-  - ⏱️ Time: O(S + T),  🧠 Space: O(1)
-- 💬 **One-liner Summary**:
-  - Same characters, same frequency → it’s an anagram.
-- 🚩 **Mistakes/Traps**:
-  - Forgetting to check lengths early.
-  - Not handling uppercase/unicode (problem says only lowercase).
-- 🧩 **Pattern**: Hashing (Frequency Map)
-- 🚦 **Confidence Level**: 🟩 Green
+| Field               | Notes                                                                 |
+|---------------------|------------------------------------------------------------------------|
+| 📌 Problem           | [Valid Anagram](https://leetcode.com/problems/valid-anagram)          |
+| ❓ Type / Tag        | String, Hashing, Frequency Array                                       |
+| 🧠 Pattern Used      | Frequency array (size 26) or sort + compare                            |
+| 🐢 Brute Force       | Generate all permutations → `O(n!)`                                    |
+| 🐇 Optimised         | Sort + compare → `O(n log n)` time, `O(1)` space <br> Frequency count → `O(n)` time, `O(1)` space |
+| 🔁 Mistakes / Traps  | ❗ Missed length check <br> ❗ Forgot to reset count array in test cases |
+| 💬 Summary           | Two anagrams → same frequency map or same sorted form                 |
+| 🚦 Confidence        | 🟢 Green — multiple clear strategies known                             |
+| 🛣️ Variations        | Group Anagrams, Anagram Substrings, Unicode-aware Anagram             |
+| 🔁 Recall Tip        | For lowercase only: 26-size array is fastest; Unicode? Use hashmap     |
