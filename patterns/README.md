@@ -41,6 +41,28 @@ Each pattern file:
 This helps you quickly recall and apply the right tool during interviews.
 
 ---
+## Template for each pattern
+## 🧠 DSA Pattern Template
+
+Use this format for every pattern file (`/patterns/*.md`) to ensure consistency and fast recall.
+
+---
+
+### 🧩 Pattern Name: e.g., Hashing
+
+#### 🔍 Problem Traits
+- Unordered lookup needed
+- Frequency count or pairing
+- Quick existence or counting
+
+#### 💡 Core Idea
+- Use `unordered_map` / `unordered_set` for O(1) average lookups
+- Key technique: `target - x`, frequency tracking, grouping
+
+#### 📦 STL Template
+```cpp
+unordered_map<int, int> freq;
+for (int x : nums) freq[x]++;
 
 **Tip:** Link these patterns in each problem's `README.md` under “Pattern Used” for lightning-fast lookup.
 
