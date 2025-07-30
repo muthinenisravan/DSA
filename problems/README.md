@@ -19,4 +19,3 @@ Track of all solved problems with pattern, difficulty, and notes.
 - Add new problems as you solve them.
 - Cross-link pattern folders when applicable.
 - Use this table for spaced revision & filtering.
-
