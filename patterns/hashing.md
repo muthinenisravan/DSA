@@ -32,4 +32,7 @@ Use a hash map or frequency counter to track occurrences, positions, or window u
 - 0219. Contains Duplicate II → sliding window `unordered_set`
 - 0242. Valid Anagram → frequency array or sorted strings
 | Top K Frequent Elements       | [🔗](https://leetcode.com/problems/top-k-frequent-elements) | Build freq map using `unordered_map` |
+| Valid Sudoku | [🔗](../problems/medium/36-valid-sudoku/README.md) | Triple hash set validation |
+| Contains Duplicate | [🔗](../problems/contains-duplicate/README.md) | Basic set usage |
+| Two Sum | [🔗](../problems/two-sum/README.md) | Map for complement lookup |
 ---

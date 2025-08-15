@@ -13,7 +13,7 @@ Track of all solved problems with pattern, difficulty, and notes.
 | 4  | Valid Anagram            | [🔗](https://leetcode.com/problems/valid-anagram/)            | Hashing                | Easy       | Compare sort vs frequency array for anagram detection  [View ](../problems/easy/242-valid-anagram/README.md)|
 | 5  | Top K Frequent Elements  | [🔗](https://leetcode.com/problems/top-k-frequent-elements/) | Hashing, Heap, Bucket Sort | Medium     | Top-K pattern via Min Heap and Bucket Sort [View ](../problems/medium/347-top-k-frequent-elements/notes_log.md) |
 | 6  | 238. Product of Array Except Self  | [🔗](https://leetcode.com/problems/product-of-array-except-self/) |Prefix,suffix Product| Medium     | Use prefix,suffix prod and get result [View ](../problems/medium/238-product-of-array-except-self/README.md) |
-
+| 7  | Valid Sudoku | [🔗](https://leetcode.com/problems/valid-sudoku/) | Hashing, Matrix Traversal, Simulation | Medium | Validate 9x9 board with row/col/box uniqueness[View ](../problems/medium/36-valid-sudoku/README.md) |
 
 ---
 
