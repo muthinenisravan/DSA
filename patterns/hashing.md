@@ -24,15 +24,26 @@ Use a hash map or frequency counter to track occurrences, positions, or window u
 - Watch for off-by-one in sliding window boundaries.
 
 ---
+🛠️ Common Use-Cases:
+- Detect duplicates
+- Count frequency
+- Consecutive sequences
+- Membership checks in O(1)
 
-### 📦 Problems Covered
+⚙️ Techniques:
+- Insert elements into HashSet
+- Iterate each element, only start streak if element-1 is not in set
+- Expand streak by checking element+1, element+2, ...
 
-- 0001. Two Sum → index tracking via `unordered_map`
-- 0217. Contains Duplicate → frequency / set check
-- 0219. Contains Duplicate II → sliding window `unordered_set`
-- 0242. Valid Anagram → frequency array or sorted strings
-| Top K Frequent Elements       | [🔗](https://leetcode.com/problems/top-k-frequent-elements) | Build freq map using `unordered_map` |
-| Valid Sudoku | [🔗](../problems/medium/36-valid-sudoku/README.md) | Triple hash set validation |
-| Contains Duplicate | [🔗](../problems/contains-duplicate/README.md) | Basic set usage |
-| Two Sum | [🔗](../problems/two-sum/README.md) | Map for complement lookup |
----
+🧠 Time Complexity:
+- O(N) for inserting N elements into HashSet
+- O(N) for iterating and building sequences
+
+✅ Related Problems:
+Problem                        | Link | Note
+--------------------------------|------|------------------------------------------------
+Contains Duplicate               | 🔗   | Simple duplicate check with HashSet
+Contains Duplicate II            | 🔗   | Sliding window + HashSet
+Valid Anagram                    | 🔗   | Frequency map using Hash
+Top K Frequent Elements           | 🔗   | Frequency map for heap or bucket
+Longest Consecutive Sequence      | 🔗   | HashSet to track starts of sequences
