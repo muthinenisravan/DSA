@@ -12,7 +12,7 @@ A categorized collection of common problem-solving patterns used in NeetCode 150
 | 2  | [Sliding Window](sliding-window.md)| Optimize subarray problems using a window that expands/contracts    |
 | 3  | [Heap / Priority Queue](heap.md)   | Use min/max heaps for Top-K, streaming, and greedy element access   |
 | 4  | [Bucket Sort / Frequency Indexed](bucket-sort.md) | Replace sorting with frequency-indexed arrays when data is bounded |
-
+| 5  | [prefix-suffix](prefix-suffix-product.md) | Compute result per index using product of elements before & after without division.|
 ---
 
 ## 🧩 Quick Additions Coming Soon
@@ -65,4 +65,3 @@ unordered_map<int, int> freq;
 for (int x : nums) freq[x]++;
 
 **Tip:** Link these patterns in each problem's `README.md` under “Pattern Used” for lightning-fast lookup.
-
