@@ -43,7 +43,7 @@ Here’s how you can **utilize it effectively**:
 | Sliding Window | Fixed/variable window templates                 | [sliding-window.md](./patterns/sliding-window.md) |
 | Heap / Top-K   | Priority Queue, Top-K elements, Min/Max Heaps   | [heap.md](./patterns/heap.md)             |
 | Prefix,Suffix Prod/sum   | prefix,suffix product   | [prefix-suffix.md](./patterns/prefix-suffix-product.md)             |
-| two pointers   | use 2 indices moving to solve problem efficiently   | [two-pointer.md](./patterns/two-pointer.md)             |
+| two pointers   | use 2 indices moving to solve problem efficiently   | [two-pointer.md](./patterns/two-pointers.md)             |
 
 > 🔁 Every problem maps to a pattern. Master the pattern → unlock 100+ problems.
 
