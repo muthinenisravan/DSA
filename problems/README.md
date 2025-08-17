@@ -17,6 +17,7 @@ Track of all solved problems with pattern, difficulty, and notes.
 | 8  | Product of Array Except Self | [🔗](https://leetcode.com/problems/product-of-array-except-self/) | Prefix/Suffix Arrays  | Medium     | Prefix & suffix products; in-place optimization [View](./medium/238-product-of-array-except-self/README.md) |
 | 9  | Longest Consecutive Sequence | [🔗](https://leetcode.com/problems/longest-consecutive-sequence/) | Hashing, Set          | Medium     | Track sequences only from start of streaks using HashSet [View](./medium/128-longest-consecutive-sequence/README.md) |
 | 10  | Valid Palindrome | [🔗](https://leetcode.com/problems/valid-palindrome) | two pointers       | easy     | Two pointers from both ends, skip non-alphanumeric, lowercase comparison [View](./easy/125-valid-palindrome/README.md) |
+| 11 | two-sum-ii-sorted Array | [🔗](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | two pointers       | medium     | Two pointers from both ends, do binary search for target [View](./medium/167-two-sum-ii/README.md) |
 ---
 
 ## 🔄 Next Steps
