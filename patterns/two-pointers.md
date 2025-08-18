@@ -27,5 +27,6 @@ Use two indices moving from opposite ends (or same direction) to solve problems 
 |---------|------|------|
 | Valid Palindrome | [🔗](../problems/easy/valid-palindrome/README.md) | Skip non-alphanumerics, compare lowercase |
 | two-sum-ii-sorted Array | [🔗](../problems/medium/167-two-sum-ii/README.md) | use 2 indices, binary search for target|
+|3SUM|- [3Sum](../problems/3sum/README.md)|Sort, use 2pointer search for target, avoid duplicates|
 | Longest Palindromic Substring | 🔗 | Expand around center technique |
 | Valid Palindrome II | 🔗 | At most one character removal allowed |
