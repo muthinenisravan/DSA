@@ -8,6 +8,10 @@ Use two indices moving from opposite ends (or same direction) to solve problems 
 - Partitioning problems
 - Subarray/subsequence scans
 - Sliding window variations
+- You have a sorted array or string (not always, but very common).
+- You need to find pairs or triplets that satisfy some condition (sum, difference, product, etc.).
+- You need to process from both ends toward the middle.
+- You want to reduce time complexity (brute force = O(n²), two pointers often = O(n)).
 
 ⚙️ Techniques:
 - Initialize `left` and `right` pointers
