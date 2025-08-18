@@ -26,7 +26,7 @@
    - Sort, fix one element, use two pointers for 2-sum.
 
 ## 🧩 Pattern Details
-- **Pattern:** [Two Pointers](../../patterns/two-pointers.md)  
+- **Pattern:** [Two Pointers](../patterns/two-pointers.md)  
 - Fix one pointer, then use left/right pointers to find complement.  
 - Key trick: handle duplicates at all levels (`i`, `left`, `right`).
 
