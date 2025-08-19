@@ -20,6 +20,7 @@ Track of all solved problems with pattern, difficulty, and notes.
 | 11 | two-sum-ii-sorted Array | [🔗](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | two pointers       | medium     | Two pointers from both ends, do binary search for target [View](./medium/167-two-sum-ii/README.md) |
 | 12  | 3Sum | [🔗](https://leetcode.com/problems/3sum/) | Sorting, Two Pointers | Medium | Sort + fix + two-pointers; skip duplicates ([View](./medium/15-3sum/README.md)) |
 | 13 | Container With Most Water                   | [🔗](https://leetcode.com/problems/container-with-most-water/) | Two Pointers, Greedy             | Medium     | Move the shorter pointer inward; area = width * min(height)    [View](./medium/11-container-with-most-water/README.md)     |
+| 14 | Next Greater Element I   | [🔗](https://leetcode.com/problems/next-greater-element-i/) | Monotonic Stack, HashMap | Easy | Build decreasing stack on nums2, precompute map, then answer nums1 queries  [View](./easy/496-next-greater-element-i/README.md)   |
 ---
 
 ## 🔄 Next Steps

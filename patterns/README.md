@@ -6,14 +6,16 @@ A categorized collection of common problem-solving patterns used in NeetCode 150
 
 ## 🧠 Pattern Categories
 
-| #  | Pattern Name             | Description                                                       |
-|----|--------------------------|-------------------------------------------------------------------|
-| 1  | [Hashing](hashing.md)              | Use hash maps/sets for fast lookup, frequency count, or grouping     |
-| 2  | [Sliding Window](sliding-window.md)| Optimize subarray problems using a window that expands/contracts    |
-| 3  | [Heap / Priority Queue](heap.md)   | Use min/max heaps for Top-K, streaming, and greedy element access   |
+
+| #  | Pattern Name                          | Description                                                                 |
+|----|---------------------------------------|-----------------------------------------------------------------------------|
+| 1  | [Hashing](hashing.md)                 | Use hash maps/sets for fast lookup, frequency count, or grouping            |
+| 2  | [Sliding Window](sliding-window.md)   | Optimize subarray problems using a window that expands/contracts            |
+| 3  | [Heap / Priority Queue](heap.md)      | Use min/max heaps for Top-K, streaming, and greedy element access           |
 | 4  | [Bucket Sort / Frequency Indexed](bucket-sort.md) | Replace sorting with frequency-indexed arrays when data is bounded |
-| 5  | [prefix-suffix](prefix-suffix-product.md) | Compute result per index using product of elements before & after without division.|
-| 6  | [two-pointers](two-pointers.md) | use 2 indices/pointers to move and solve problem efficiently based on condition. |
+| 5  | [Prefix-Suffix](prefix-suffix-product.md) | Compute result per index using product of elements before & after without division |
+| 6  | [Two Pointers](two-pointers.md)       | Use 2 indices/pointers to move and solve problems efficiently based on condition |
+| 7  | [Monotonic Stack](monotonic-stack.md) | Maintain increasing/decreasing stack to solve nearest greater/smaller queries, spans, and area problems efficiently |
 ---
 
 ## 🧩 Quick Additions Coming Soon
