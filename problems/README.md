@@ -23,7 +23,9 @@ Track of all solved problems with pattern, difficulty, and notes.
 | 14 | Next Greater Element I   | [🔗](https://leetcode.com/problems/next-greater-element-i/) | Monotonic Stack, HashMap | Easy | Build decreasing stack on nums2, precompute map, then answer nums1 queries  [View](./easy/496-next-greater-element-i/README.md)   |
 | 15 | Best Time to Buy and Sell Stock | [🔗](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Greedy, Two Pointers / Sliding Window | Easy | Min-so-far (prefix-min) or l/r reset on new low [View](./easy/121-best-time-to-buy-and-sell-stock/README.md) |
 | 16 | Longest Substring Without Repeating Characters | [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Sliding Window, Hashing | Medium | Last-seen index jump; invariant keeps window unique [View](./medium/3-longest-substring-without-repeating-characters/README.md) |
+| 17 | Longest Repeating Character Replacement | [🔗](https://leetcode.com/problems/longest-repeating-character-replacement/) | Sliding Window, Frequency | Medium | Window valid if `len - maxFreq ≤ k`; `maxFreq` kept as running maximum [View](./medium/424-longest-repeating-character-replacement/README.md) |
 ---
+
 
 ## 🔄 Next Steps
 

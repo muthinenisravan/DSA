@@ -31,6 +31,13 @@ Maintain a window (`[left, right]`) while satisfying a constraint (length, sum, 
 - Forgetting to erase from set when shrinking
 - Off-by-one errors in window size
 
+### ✅ Notes for LC424.Longest Repeating Character Replacement
+- Invariant: `(window_len - maxFreq) ≤ k` always holds after the inner while.
+- Don’t decrease `maxFreq` on shrink; stale is fine and keeps overall O(n).
+- Constant alphabet → use array; otherwise switch to map.
+
+
+
 ---
 
 ## 🔁 Related Patterns
