@@ -21,6 +21,8 @@ Track of all solved problems with pattern, difficulty, and notes.
 | 12  | 3Sum | [🔗](https://leetcode.com/problems/3sum/) | Sorting, Two Pointers | Medium | Sort + fix + two-pointers; skip duplicates ([View](./medium/15-3sum/README.md)) |
 | 13 | Container With Most Water                   | [🔗](https://leetcode.com/problems/container-with-most-water/) | Two Pointers, Greedy             | Medium     | Move the shorter pointer inward; area = width * min(height)    [View](./medium/11-container-with-most-water/README.md)     |
 | 14 | Next Greater Element I   | [🔗](https://leetcode.com/problems/next-greater-element-i/) | Monotonic Stack, HashMap | Easy | Build decreasing stack on nums2, precompute map, then answer nums1 queries  [View](./easy/496-next-greater-element-i/README.md)   |
+| 15 | Best Time to Buy and Sell Stock | [🔗](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Greedy, Two Pointers / Sliding Window | Easy | Min-so-far (prefix-min) or l/r reset on new low [View](./easy/121-best-time-to-buy-and-sell-stock/README.md) |
+| 16 | Longest Substring Without Repeating Characters | [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Sliding Window, Hashing | Medium | Last-seen index jump; invariant keeps window unique [View](./medium/3-longest-substring-without-repeating-characters/README.md) |
 ---
 
 ## 🔄 Next Steps
